@@ -38,6 +38,7 @@ HookDir  = %[1]s/etc/pacman.d/hooks/
 HoldPkg  = pacman glibc
 Architecture = auto
 SigLevel = Required DatabaseOptional TrustAll
+DisableDownloadTimeout
 `
 
 const configRepoSection = `
